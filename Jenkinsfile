@@ -62,7 +62,7 @@ pipeline {
                 orchestratorAddress: "${UIPATH_ORCH_URL}",
                 orchestratorTenant: "${UIPATH_ORCH_TENANT_NAME}",
                 folderName: "${UIPATH_ORCH_FOLDER_NAME}",
-                //environments: '',
+                environments: '',
                 //credentials: [$class: 'UserPassAuthenticationEntry', credentialsId: 'APIUserK']
                 credentials: Token(accountName: "${UIPATH_ORCH_LOGICAL_NAME}", credentialsId: '7015'),
                 traceLevel: 'None',
